@@ -12,7 +12,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 msg_list = [
     {"role":"user","content":"파이썬에서 변수가 뭐야?"},
     {"role": "assistant", "content": "변수는 데이터를 저장하는 상자와 같습니다."},
-    {"role": "user", "content": "그럼 리스트는 뭐야?"},
+    {"role": "user", "content": "내가 질문한 내용이 뭐였지?"},
 ]
 # 3. 대답할 내용 토큰 화 테스트
 prompt = tokenizer.apply_chat_template(
